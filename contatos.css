@@ -40,16 +40,21 @@ form{
 
 form label{
     display:block;
+    margin: 0 0 10px;
+    font-size: 20px;
 }
 
-form input{
+.inputs-padrao{
     display:block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;Z\
 }
 
 footer{
     text-align: center;
     background-image: url(./img/bg.jpg);
-   color: white;
+   color: white;,,
    padding: 40px 0;
    font-size: 13px;
 }
