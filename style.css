@@ -42,9 +42,9 @@ nav a:hover{
     width: 100%;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
+.principal{
+    padding: 3em 0;
+   background-color: #fefefe;
 }
 
 .principal p{
@@ -74,6 +74,13 @@ main{
 
 .mapa{
     padding: 3em 0;
+    margin: 0 auto;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p{
@@ -89,6 +96,7 @@ main{
 
 .beneficios{
     padding: 3em 0;
+    background-color: #888888;
 }
 
 .conteudo-beneficios{
@@ -111,13 +119,17 @@ main{
  
 .imagembeneficios{
     width: 60%;
+    opacity: 1;
+       transition: 400ms;
+    box-shadow: 10px 10px 5px #000000;
 }
 
-.beneficios{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+.imagembeneficios:hover{
+    opacity: 0.3;
+  
 }
+}
+
 
 .video{
     width: 560px;
