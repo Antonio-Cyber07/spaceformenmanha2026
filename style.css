@@ -1,9 +1,5 @@
 body{
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 }
 
 
@@ -45,6 +41,8 @@ nav a:hover{
 .principal{
     padding: 3em 0;
    background-color: #fefefe;
+   margin: 0 auto;
+   width: 940px;
 }
 
 .principal p{
@@ -109,7 +107,7 @@ nav a:hover{
     line-height: 1.5;
 }
 
-.itens::before{
+.itens:before{
     content:"★";
 }
 
@@ -128,7 +126,6 @@ nav a:hover{
     opacity: 0.3;
   
 }
-}
 
 
 .video{
@@ -143,4 +140,22 @@ footer{
    color: white;
    padding: 40px 0;
    font-size: 13px;
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa, .mapa-conteudo, .beneficios .conteudo-beneficios, .video{
+        width: auto;
+    }
+ h1{
+    text-align: center;
+}
+
+nav{
+    position:static;
+}
+
+.lista-beneficios, .imagembeneficios{
+    width: 100%;
+}
+
 }
